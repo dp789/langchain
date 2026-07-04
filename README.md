@@ -57,7 +57,11 @@ agentic_ai_learning/
 3. **Install dependencies**
 
    This creates a `.venv` virtual environment and installs all packages from `uv.lock`:
+  ```bash
+   uv add -r requirements.txt
+   ```
 
+  
    ```bash
    uv sync
    ```
